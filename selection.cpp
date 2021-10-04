@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
  
-void swap(int *a, int *b)
+void swap(int *x, int *y)
 {
-   int temp = *a;
-   *a = *b;
-   *b = temp;
+   int temp = *x;
+   *x = *y;
+   *y = temp;
 }
  
 void selectionSort(int arr[], int n)
